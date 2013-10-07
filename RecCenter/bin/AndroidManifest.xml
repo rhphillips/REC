@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reccenter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.reccenter.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.reccenter.MetsPage"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.reccenter.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.reccenter.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.reccenter.PoolPage"
+            android:label="@string/title_activity_pool_page" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.Climbing_wall"
+            android:label="@string/title_activity_climbing_wall" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.RotaryChestPress"
+            android:label="@string/title_activity_rotary_chest_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.RotaryInclinePress"
+            android:label="@string/title_activity_rotary_incline_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.PecFlyMachine"
+            android:label="@string/title_activity_pec_fly_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.BackFlyMachine"
+            android:label="@string/title_activity_back_fly_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.RotaryLatPulldown"
+            android:label="@string/title_activity_rotary_lat_pulldown" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.LatPulldown"
+            android:label="@string/title_activity_lat_pulldown" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.SeatedRow"
+            android:label="@string/title_activity_seated_row" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.RotarySeatedRow"
+            android:label="@string/title_activity_rotary_seated_row" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.RotaryShoulderPress"
+            android:label="@string/title_activity_rotary_shoulder_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.LegExtension"
+            android:label="@string/title_activity_leg_extension" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.SeatedLegCurl"
+            android:label="@string/title_activity_seated_leg_curl" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.BicepCurlMachine"
+            android:label="@string/title_activity_bicep_curl_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.TricepExtensionMachine"
+            android:label="@string/title_activity_tricep_extension_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.BackExtensionMachine"
+            android:label="@string/title_activity_back_extension_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.ChestPress"
+            android:label="@string/title_activity_chest_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.InclinePress"
+            android:label="@string/title_activity_incline_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.MapScreen"
+            android:label="@string/title_activity_map_screen" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.MapScreen2"
+            android:label="@string/title_activity_map_screen2" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.StrengthTrainingMenu"
+            android:label="@string/title_activity_strength_training_menu" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.CardioSection"
+            android:label="@string/title_activity_cardio_section" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.HipAdduction"
+            android:label="@string/title_activity_hip_adduction" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.HipAbduction"
+            android:label="@string/title_activity_hip_abduction" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.AbCrunchMachine"
+            android:label="@string/title_activity_ab_crunch_machine" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.FreeWeights"
+            android:label="@string/title_activity_free_weights" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.Treadmill"
+            android:label="@string/title_activity_treadmill" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.Elliptical"
+            android:label="@string/title_activity_elliptical" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.StatBike"
+            android:label="@string/title_activity_stat_bike" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.Erg"
+            android:label="@string/title_activity_erg" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.ShoulderPress"
+            android:label="@string/title_activity_shoulder_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.LegPress"
+            android:label="@string/title_activity_leg_press" >
+        </activity>
+        <activity
+            android:name="com.example.reccenter.DisplayEquipment"
+            android:label="@string/title_activity_display_equipment"
+            android:parentActivityName="com.example.reccenter.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.reccenter.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.reccenter.MainActivityexample"
+            android:label="@string/title_activity_main_activityexample"
+            android:parentActivityName="com.example.myapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
